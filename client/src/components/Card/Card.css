@@ -1,0 +1,105 @@
+body {
+	background-color: hsla(225, 100%, 94%, 0.801);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    z-index: -2;
+    margin: 25px 35px;
+
+}
+
+.card {
+    /* width: calc(33.33% - 163px); Adjust the width of each card as needed */
+
+	width: 24%;
+	text-align: center;
+
+    /* border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden; */
+
+    background: rgba(253, 253, 253, 0.808);
+	border-radius: 10px;
+	padding: 8px 10px;
+	min-width: 240px;
+	min-height: fit-content;
+	box-shadow: 5px 5px 10px 2px rgba(95, 95, 95, 0.24);
+}
+
+.card:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.card-details {
+    padding: 16px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.food-rating {
+    font-size: 1rem;
+    color: #FFD700;
+}
+
+.restaurant-info {
+    margin-top: 8px;
+}
+
+.restaurant-name {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.restaurant-city {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.food-cost {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.btn-container {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.see-more-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.see-more-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Basic styles for the form container */
+.child-container {
+div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Style for the form */
+  form {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the label and input */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .loc_bar {
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  /* Style for the submit button */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+}
